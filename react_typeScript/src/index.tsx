@@ -5,9 +5,6 @@ import axios from "axios";
 
 import App from "./App";
 
-import "./stylesheets/_reset.scss";
-import "./stylesheets/main.scss";
-
 axios.defaults.baseURL = process.env.APP_API_URL || "http://localhost:3000";
 
 const element = document.getElementById("root") as HTMLElement;
