@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import axios from "axios";
 
-import App from "./src/App";
+import App from "./App";
 
 import "./stylesheets/_reset.scss";
 import "./stylesheets/main.scss";
